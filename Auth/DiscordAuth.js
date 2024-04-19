@@ -8,7 +8,7 @@ const USERS_COLLECTION = database.collection('users');
 module.exports = async (passport) => {
     const returnURLString =
         process.env.NODE_ENV === 'production'
-            ? 'https://www.thegoonbot.com/api/auth/discord/return'
+            ? 'https://www.your_url.com/api/auth/discord/return'
             : 'http://localhost:3000/api/auth/discord/return';
 
     passport.use(

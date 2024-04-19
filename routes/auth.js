@@ -19,7 +19,7 @@ router.get(
 		// If env var is defined then use that otherwise assume dev environment
 		const env = process.env.NODE_ENV || 'dev';
 		if (env === 'production') {
-			return res.redirect('https://www.thegoonbot.com');
+			return res.redirect('https://www.your_url.com');
 		} else {
 			return res.redirect('http://localhost:3333');
 		}
@@ -37,7 +37,7 @@ router.get(
 		const env = process.env.NODE_ENV || 'dev';
 		req.session.user = req.user;
 		if (env === 'production') {
-			return res.redirect('https://www.thegoonbot.com/soundboard');
+			return res.redirect('https://www.your_url.com/soundboard');
 		} else {
 			return res.redirect('http://localhost:3333/soundboard');
 		}
