@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# Misc.
+/node_modules
+/build/**

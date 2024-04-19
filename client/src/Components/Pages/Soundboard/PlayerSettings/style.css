@@ -1,0 +1,16 @@
+#volume-stack {
+	width: 200px;
+}
+
+.channel-selector-container {
+	min-width: 50px;
+	width: 200px;
+}
+
+.channel-selector-container .MuiInputBase-root {
+	width: inherit;
+}
+
+#channel-selector-content {
+	width: inherit;
+}

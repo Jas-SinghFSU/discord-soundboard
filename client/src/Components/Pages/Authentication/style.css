@@ -1,0 +1,75 @@
+.login-screen-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 100%;
+	width: 100%;
+	background-image: url('../../../Images/6276023.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.login-card {
+	width: 400px;
+	text-align: center;
+	background-color: #35383f;
+	padding-left: 35px !important;
+	padding-right: 35px !important;
+}
+
+.login-joke-container {
+	display: flex;
+	flex-direction: column;
+	color: #d8bb84;
+}
+
+.joke-setup {
+	font-size: 13px;
+}
+
+.joke-punchline {
+	font-size: 13px;
+}
+
+.login-discord-button {
+	font-family: Montserrat !important;
+	font-weight: 600 !important;
+	background-color: #889adb !important;
+}
+
+.login-discord-button:hover {
+	background-color: #667dd1 !important;
+}
+
+.login-discord-button-container {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.login-card-server-label-flexbox {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-image-disclaimer {
+	color: #272c3d;
+	font-size: 11px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-weight: 600;
+}
+
+.server-name-subheading {
+	font-size: 11px;
+	margin-top: 10px;
+	color: #a1a8b9;
+}
+
+#login-server-label {
+	margin-top: 1px;
+}

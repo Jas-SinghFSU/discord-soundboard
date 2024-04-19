@@ -1,0 +1,18 @@
+.nav-item-container {
+	/* justify-content: center; */
+	margin-left: 40px;
+}
+
+.nav-item-container button {
+	font-family: Montserrat !important;
+	font-weight: 600 !important;
+}
+
+.navbar-user-name {
+	margin-right: 20px;
+}
+
+.top-navbar {
+	background-color: #181825 !important;
+	background-image: unset !important;
+}

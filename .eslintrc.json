@@ -1,0 +1,31 @@
+{
+  "extends": [ "airbnb", "prettier" ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": { 
+    "indent": ["error", 4]
+  },
+  "globals": {
+    "database": "readonly",
+    "log": "readonly",
+    "activeGuildId": "readonly",
+    "client": "readonly",
+    "audioPlayer": "readonly",
+    "gTime": "readonly",
+    "apiPassword": "readonly",
+    "logRequest": "readonly",
+    "isReady": "writable",
+    "subscription": "writable",
+    "currentChannelId": "writable",
+    "voiceChannel": "writable",
+    "voiceChannelId": "writable",
+    "botDisconnectTimer": "writable"
+  }
+}
